@@ -7,9 +7,11 @@
 
 # 一，项目介绍
 
+数据引用：[天池新冠问题数据](https://tianchi.aliyun.com/dataset/dataDetail?spm=5176.12281978.0.0.455f248bNzZ6Nf&dataId=76751)
+
 ## 1.原理
 
-> 使用sklearn的机器学习算法对文本进行分类,通过数据分析查看数据分布，然后通过jieba的分词和gensim的word2vec获取词向量，最后通过决策树、随机森林、SVM进行训练验证，结果随机森林效果最好macro-F1分值为0.94
+> 使用sklearn的机器学习算法对文本进行分类;通过数据分析查看数据分布，然后通过jieba的分词和gensim的word2vec获取词向量，最后通过决策树、随机森林、SVM进行训练验证，结果随机森林效果最好macro-F1分值为0.94
 
 ## 2.项目结构
 
